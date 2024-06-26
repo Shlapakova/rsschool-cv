@@ -1,6 +1,6 @@
 # Krystsina Shlapakova
 
-![It's me.](/IMG_2591.jpg ")
+![It's me.](IMG_2591.JPG)
 
 - <shlapakova.kristina@gmail.com>
 - +48507926340
@@ -24,7 +24,7 @@
 3. ### IT-Academy, Minsk, Belarus, 2021
 Web Application Development with JavaScript
 
-![It's me.](/it.jpg ")
+![my certificate](it.png )
 
 3. ### SKK Warsaw, 2020 - 2023
 Pharmacy Technician
@@ -55,14 +55,15 @@ Assisted in various accounting tasks and maintained financial records.
 Selling medications and compounding prescription drugs
 
 
-Example of my code that converts Kelvin to Celsius and then to Fahrenheit for CODEACADEMY task: 
-javascript 
+###Example of my code that converts Kelvin to Celsius and then to Fahrenheit for CODEACADEMY task: 
+
+```javascript 
 const kelvin = 0; // temperature in kelvin
 let celsius = kelvin - 273; // temperature in celsius;
 let fahrenheit = celsius * (9 / 5) + 32; // temperature in fahrenheit; 
 fahrenheit = Math.floor(fahrenheit); // round down the fahrenheit temperature;
 console.log(The temperature is ${fahrenheit} degrees Fahrenheit.);
-
+```
 | Language |    Level  |
 | ------------- |:-------------:|
 | Russian       | native        |
