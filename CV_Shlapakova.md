@@ -64,7 +64,8 @@ let fahrenheit = celsius * (9 / 5) + 32; // temperature in fahrenheit;
 fahrenheit = Math.floor(fahrenheit); // round down the fahrenheit temperature;
 console.log(The temperature is ${fahrenheit} degrees Fahrenheit.);
 ```
-| Language |    Level  |
+
+| Language      |    Level      |
 | ------------- |:-------------:|
 | Russian       | native        |
 | Polish        | intermediate  |
