@@ -55,7 +55,7 @@ Assisted in various accounting tasks and maintained financial records.
 Selling medications and compounding prescription drugs
 
 
-###Example of my code that converts Kelvin to Celsius and then to Fahrenheit for CODEACADEMY task: 
+### Example of my code that converts Kelvin to Celsius and then to Fahrenheit for CODEACADEMY task: 
 
 ```javascript 
 const kelvin = 0; // temperature in kelvin
