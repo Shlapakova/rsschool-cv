@@ -66,7 +66,7 @@ console.log(The temperature is ${fahrenheit} degrees Fahrenheit.);
 ```
 
 | Language      |    Level      |
-| ------------- |:-------------:|
+| ------------- |---------------|
 | Russian       | native        |
 | Polish        | intermediate  |
 | English       | intermediate  |
