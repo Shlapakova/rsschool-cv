@@ -1,6 +1,6 @@
 # Krystsina Shlapakova
 
-![It's me.](IMG_2591.JPG)
+![It's me.](image/IMG_2591.JPG)
 
 - <shlapakova.kristina@gmail.com>
 - +48507926340
