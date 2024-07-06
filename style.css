@@ -1,6 +1,248 @@
 body {
-    background-color: rgb(0, 0, 0);
-  }
-#text{
-  color:white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
 }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .profile-picture {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 10px 0;
+  color:#000000;
+}
+
+header p {
+  margin: 5px 0;
+  color:#000000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease, text-decoration 0.3s ease;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #000000;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.about{
+  text-align: center;
+}
+
+.about,
+.education,
+.experience,
+.code-example,
+.languages,
+.education article,
+.experience article {
+  margin-bottom: 20px;
+}
+
+.education ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.certificate {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.code-example pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  display: block;
+  white-space: pre;
+}
+
+.projects {
+  text-align: center;
+}
+
+.project-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.project-content {
+  position: relative;
+  display: inline-block;
+}
+
+.project-logo {
+  width: 400px;
+  border: 5px solid #333;
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease;
+}
+
+.project-title {
+  color: #ffffff;
+}
+
+.project-content:hover .overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.project-content:hover .project-title,
+.project-content:hover .button {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.button {
+  background-color: #61c7de;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #333;
+  color: #fff;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer a {
+  display: block;
+  text-align: center;
+}
+
+.github-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.footer-logo:hover {
+  fill: #0073b1;
+}
+
+.footer a img,
+.footer-logo,
+.project-logo {
+  transition: transform 0.3s ease;
+}
+
+.footer a img:hover,
+.footer-logo:hover,
+.project-logo:hover {
+  transform: scale(1.1);
+}
+
+.footer li{
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      gap: 10px;
+  }
+  .github-logo,
+  .footer-logo {
+      width: 40px;
+      height: auto;
+  }
+}
+
