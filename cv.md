@@ -1,6 +1,6 @@
 # Krystsina Shlapakova
 
-![It's me.](IMG_2591.JPG)
+![It's me.](image/IMG_2591.JPG)
 
 - <shlapakova.kristina@gmail.com>
 - +48507926340
@@ -24,7 +24,7 @@
 3. ### IT-Academy, Minsk, Belarus, 2021
 Web Application Development with JavaScript
 
-![my certificate](it.png )
+![my certificate](image/it.png )
 
 3. ### SKK Warsaw, 2020 - 2023
 Pharmacy Technician
